@@ -40,8 +40,19 @@ This speaks for itself, you just write your message.
 3. Go through Action, Scope and Message.
    1. If you are not sure what action to choose/call, use `h`
 4. You have *(hopefully)* successfully committed.
+#### Add to PATH
+1. *Optional:* Move the file to desired location, for example: `Documents\WindowsPowerShell\Scripts`
+2. Copy path to script.
+3. Search `Edit the system environment variables`
+4. Open `Environment variables`
+5. Select `Path` in user variables
+   * Edit -> New -> Paste copied path to script
+6. Done. You can now call this from whenever `commit_builder.ps1`
+
+
 ### Linux - Bash
 *not developed yet*
+
 
 ## Example
 ```
