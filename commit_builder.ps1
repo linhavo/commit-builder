@@ -101,6 +101,6 @@ if ($confirm -ne "y") {
 }
 
 # Commit using Git
-# git commit -m $commitMessage
+git commit -m $commitMessage
 Write-Host "Committing with message: $commitMessage"
 
