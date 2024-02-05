@@ -92,6 +92,5 @@ if [ "$confirm" != "y" ]; then
     exit 1
 fi
 
-echo "Committing: $commitMessage"
 # Commit using Git
-# git commit -m "$commitMessage"
+git commit -m "$commitMessage"
