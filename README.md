@@ -55,14 +55,12 @@ This speaks for itself, you just write your message.
 2. Open your terminal and navigate to the directory where `commit_builder.sh` is downloaded.
 3. Give execute permission to the script by running `chmod +x commit_builder.sh`.
 
-## Usage
-
-1. In your terminal, execute the script by running `./commit_builder.sh`.
-2. Follow the prompts to go through Action, Scope, and Message.
+4. In your terminal, execute the script by running `./commit_builder.sh`.
+5. Follow the prompts to go through Action, Scope, and Message.
    - If you are not sure what action to choose, enter `h` for help.
-3. If everything is correct, your changes will be successfully committed.
+6. If everything is correct, your changes will be successfully committed.
 
-## Adding to PATH (Optional)
+#### Add to PATH
 
 1. Move the script to a desired location, for example: `~/scripts`.
 2. Add the path to the script to your PATH variable:
@@ -74,7 +72,9 @@ This speaks for itself, you just write your message.
 
 ## Example
 ```
-.\commit_builder.ps1
+.\commit_builder.ps1 in PowerShell
+./commit_builder.sh in Linux
+
 > Enter Action (h for help): a
 > Enter Scope: root
 > Enter Message: Add commit to the script
