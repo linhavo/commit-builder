@@ -51,8 +51,26 @@ This speaks for itself, you just write your message.
 
 
 ### Linux - Bash
-*not developed yet*
+1. Download `commit_builder.sh`.
+2. Open your terminal and navigate to the directory where `commit_builder.sh` is downloaded.
+3. Give execute permission to the script by running `chmod +x commit_builder.sh`.
 
+## Usage
+
+1. In your terminal, execute the script by running `./commit_builder.sh`.
+2. Follow the prompts to go through Action, Scope, and Message.
+   - If you are not sure what action to choose, enter `h` for help.
+3. If everything is correct, your changes will be successfully committed.
+
+## Adding to PATH (Optional)
+
+1. Move the script to a desired location, for example: `~/scripts`.
+2. Add the path to the script to your PATH variable:
+   - Open your `~/.bashrc` or `~/.zshrc` file in a text editor.
+   - Add the following line: `export PATH="$PATH:/path/to/your/script/folder"`.
+   - Replace `/path/to/your/script/folder` with the actual path to your script.
+3. Save the file and reload your shell configuration with `source ~/.bashrc` or `source ~/.zshrc`.
+4. Now you can run `commit_builder.sh` from any directory in your terminal.
 
 ## Example
 ```
